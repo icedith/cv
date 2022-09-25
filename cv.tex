@@ -1,0 +1,117 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[margin, 10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+
+\usepackage{helvet} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+\usepackage{hyperref}
+\setlength{\textwidth}{5.1in} % Text width of the document
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\moveleft.5\hoffset\centerline{\large\bf Edyta Zugaj} % Your name at the top
+ 
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+
+\moveleft.5\hoffset\centerline{Wroclaw, Poland} 
+\moveleft.5\hoffset\centerline{(+48)789357799}
+\moveleft.5\hoffset\centerline{edith.zugaj@gmail.com}
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{resume}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+ 
+\section{OBJECTIVE}  
+
+Seeking a position to enhance my skills and abilities in the IT, the most desired technologies are C/C++, embedded applications, telecom, audio/video processing. I would be happy to try other languages like Swift, ObjC, Java, JavaScript. I have positive attitude to work in international environment.
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{EDUCATION}
+
+{\sl M.Sc.,} Control Engineering and Robotics, minor: robotics \\
+Wroclaw University of Technology, Faculty of Electronics \hfill 2005 - 2010\\
+\\
+{\sl B.Sc.,} Mathematics, specialization: theoretical mathematics\\
+Wroclaw University, Mathematics and Computer Science Department, \hfill 2008 - 2010\\
+\\
+{\sl B.Sc.,} Computer Science and Econometrics\\
+University of Computer Science and Economics in Olsztyn, \hfill 2002 - 2005\\
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+ 
+\section{EXPERIENCE}
+
+{\sl Senior Software Engineer} \hfill March 2016 - now\\
+Dolby Poland Sp. z o.o., Wroclaw, Poland
+
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Development and maintenance of iOS SDK for \href{https://docs.dolby.io/communications-apis/docs/overview-introduction}{dolby.io} communication API. 
+\item Porting audio conference client library to WebAssembly, which was then integrated to Web SDK for dolby.io communication API.
+\item Development of cross-platform audio conference client library.
+\item Maintenance of cross-platform cross-architecture intrinsic library.
+\item Porting audio processing libraries written in C/C++ to following platforms: Qualcomm QDSP6, ARM7/8, Xtensa LXn DSP and for operating systems: Android and iOS.
+\end{itemize}
+
+{\sl Software Engineer} \hfill April 2011 - March 2016  \\
+Nokia Sp. z o.o., Wroclaw, Poland
+\begin{itemize} 
+\item Development and maintenance of eNB LTE PHY (uplink) on TI C6000 processors family. This layer is responsible for decoding user data that a base station receives from a mobile phone. Porting Matlab model to C/C++.
+\item Porting eNB LTE PHY (uplink) to the new TI DSP processor.
+\end{itemize} 
+Espotel Poland Sp. z o.o., Wroclaw, Poland
+\begin{itemize}
+\item Development and maintenance of C/ASM drivers for peripherals of TI C6000 processors for eNB base-band modules.
+\end{itemize} 
+
+
+{\sl Junior Software Engineer} \hfill August 2010 - March 2011\\
+Red Sky Sp. z o.o., Wroclaw, Poland
+
+\begin{itemize} \itemsep -2pt % Reduce space between items
+\item Development of C++ library for distributed file system.
+
+\end{itemize}
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{SKILLS} 
+
+Currently working with Swift, ObjC, C++; hands on experience with: WebAssembly, JavaScript, ASM for QDSP, ASM for ARMv7/8, ASM for Tensilica LX, ASM for TI C6000, Matlab.
+
+\end{resume}
+\end{document}
